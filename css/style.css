@@ -1,0 +1,122 @@
+/*
+Обнуление стилей
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	font-size: 20px;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+/*
+Обнуление стилей
+*/
+
+
+
+
+.imgclass2 {
+ 
+    width: 100%;
+}
+
+.container2{
+width: 90%;
+margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    //CSS Code
+    
+    }
+    
+   // For mobile (landscape)
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    //CSS Code
+    
+    }
+    
+   // For tablet
+    
+    @media only screen and (min-width: 768px) and (max-width: 979px) {
+    
+      
+    
+    }
+
+
+    
+   // For small desktop
+    
+    @media only screen and (min-width: 980px) and (max-width: 1023px) {
+    
+    //CSS Code
+    
+    }
+    
+   // For typical desktop
+    
+    @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    
+      
+    
+    }
+    
+   // For large desktop
+    
+    @media only screen and (min-width: 1200px) {
+    
+.fs-1 {
+    position: absolute;
+   
+    top: 152px;
+    right: 260px;
+    color: #fff;
+}
+    
+    }
